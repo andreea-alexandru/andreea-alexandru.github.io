@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<title>Resources - Andreea Alexandru</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+.w3-sidenav a,.w3-sidenav h4{padding:20px;}
+.w3-navbar a{padding-top:12px !important;padding-bottom:12px !important;}
+</style>
+<body>
+
+<!-- Navbar -->
+<ul class="w3-navbar w3-theme w3-top w3-left-align w3-large" style="z-index:4;">
+  <li class="w3-opennav w3-right" onclick="w3_open()">
+    <a class="w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)"><i class="fa fa-bars"></i></a>
+  </li>
+  <li class="w3-hide-small"><a href="./index.html" class="w3-hover-white">Home</a></li>
+  <li class="w3-hide-small"><a href="./CV2021.pdf" class="w3-hover-white">CV</a></li>    
+  <li class="w3-hide-small"><a href="./Research.html" class="w3-hover-white">Research</a></li>
+  <li class="w3-hide-small"><a href="./Service.html" class="w3-hover-white">Service</a></li>
+  <li class="w3-hide-small"><a href="./Resources.html" class="w3-hover-white">Resources</a></li>
+  <li class="w3-hide-small"><a href="./Personal.html" class="w3-hover-white">Personal</a></li>
+</ul>
+
+<nav id="mySidenav" class="w3-sidenav w3-collapse w3-theme-l5 w3-animate-left" style="z-index:3;width:0px;!--margin-top:0px;--">
+  <a href="./index.html" class="w3-hover-black">Home</a>
+  <a href="./CV2021.pdf" class="w3-hover-black">CV</a>  
+  <a href="./Research.html" class="w3-hover-black">Research</a>
+  <a href="./Service.html" class="w3-hover-black">Service</a>
+  <a href="./Resources.html" class="w3-hover-black">Resources</a></li>
+  <a href="./Personal.html" class="w3-hover-black">Personal</a></li>
+</nav>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidenav is visible -->
+<div class="w3-main" style="margin-left:250px;margin-top: 70px;">
+
+  <div class="w3-row w3-padding-8">
+    <div class="w3-twothird w3-container">
+  <h1 class="w3-text" style="color:Teal">Andreea B. Alexandru</h1>
+
+
+	<h3 class="w3-text-black">PhD life</h3>
+
+  <p>
+    Accounts by successful people:
+    <ul>
+      <li>Ronald Azuma's <a href="https://www.cs.unc.edu/~azuma/hitch4.html" target="_blank">PhD Survival Guide</a>.</li>
+      <li>Andrej Karpathy's <a href="https://karpathy.github.io/2016/09/07/phd/" target="_blank">PhD Survival Guide</a>.</li>
+      <li>Mihir Bellare: <a href="https://cseweb.ucsd.edu/~mihir/phd.html" target="_blank">The PhD Experience</a>.</li>
+    </ul>
+  </p>
+
+    <h3 class="w3-text-black">Writing papers, giving presentations, assembling posters</h3>
+
+  <p>
+    <ul>
+      <li>Simon Peyton Jones: <a href="https://www.youtube.com/watch?v=sT_-owjKIbA" target="_blank">How to Give a Great Research Talk</a> </li>
+      <li>Scott A. Socolofsky: <a href="https://ceprofs.civil.tamu.edu/ssocolofsky/downloads/paper_how-to.pdf" target="_blank">How to Write a Research Journal Paper</a> </li>
+      <li>Justin L. Matthews: <a href="http://justinlmatthews.com/posterhelp/posterguide/" target="_blank">Designing Effective Conference Posters</a> </li>
+    </ul>
+  </p>
+
+
+    <h3 class="w3-text-black">Fun science comics and articles</h3>
+
+  <p>
+    <ul>
+      <li><a href="https://abstrusegoose.com/" target="_blank">Abstruse Goose </a> </li>
+      <li><a href="https://waitbutwhy.com/" target="_blank">Wait but Why</a> </li>
+      <li><a href="https://xkcd.com/" target="_blank">xkcd</a> </li>
+      <li><a href="http://phdcomics.com/" target="_blank">PhD Comics</a> </li>
+      <li><a href="https://thecodinglove.com/" target="_blank">The coding love</a></li>
+    </ul>
+  </p>
+
+    </div>
+  </div>
+</div>
+
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidenav
+var mySidenav = document.getElementById("mySidenav");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidenav, and add overlay effect
+function w3_open() {
+    if (mySidenav.style.display === 'block') {
+        mySidenav.style.display = "none";
+        mySidenav.style.width = "0%";
+    } else {
+        mySidenav.style.display = "block";
+        mySidenav.style.width = "200px";
+    }
+}
+
+// Close the sidenav with the close button
+function w3_close() {
+    mySidenav.style.display = "none";
+    mySidenav.style.width = "0%";
+}
+</script>
+
+</body>
+</html>
