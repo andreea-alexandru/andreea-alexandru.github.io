@@ -47,15 +47,15 @@ html,body,h1,h2,h3,h4,h5,h6 {margin: 2% auto; background: #f2f2f2; font-family: 
         <h2 class="w3-text-black">Researcher</h2>
 
   <p>
-  My current research interests are secure multi-party computation and distributed cryptographic protocols such as broadcast and consensus. Although this line of work has already spanned decades, it has gained a tremendous interest with the emergence of blockchains and in general, with the scaling up of distributed systems. I focus on designing efficient protocols for state machine replication and broadcast under various threat models and network synchronicity assumptions.
+  My current research interests are <b>secure multi-party computation</b> and <b>distributed cryptographic</b> protocols such as broadcast and consensus. Although this line of work has already spanned decades, it has gained a tremendous interest with the emergence of blockchains and, more generally, with the scaling up of distributed systems. I focus on designing efficient protocols for state machine replication and broadcast under various threat models and network synchronicity assumptions. For instance, arbitrary changes in the network synchronicity can render a protocol designed for synchronous networks insecure, while a protocol designed for asynchronous networks tolerates fewer faults even when the network is synchronous. I proposed common subset and state machine replication protocols that have low communication complexity and tolerate the optimal number of faults even under arbitrary network transitions from synchronous to asynchronous.
   </p>
 
   <p>
-  Other current research interests revolve around robust differential privacy, anonymous communication systems, and continuing the research on both private and secure control systems.
+  Other current research interests revolve around robust differential privacy, anonymous communication systems, and designing both private and secure control systems.
   </p>
 
   <p>
-	During PhD, my main focus was in the <b>privacy and security</b> of dynamical systems. Many of the structures we see around us are <b>dynamical systems</b>; from the time series coming from medical monitoring sensors to the energy consumption of our homes. Moreover, abstract concepts can be modeled as dynamical systems, for example: iterative optimization algorithms like the gradient descent algorithm, as well as the processes of training and evaluating neural networks (ideas from control theory can help making decisions and controlling variables of interest in all these areas). Nevertheless, concealing dynamical data brings extra challenges, such as dealing with the dependencies between data at different time steps, maintaining privacy at consecutive iterations and accumulation of noise in the result. 
+	During PhD, my main focus was in the <b>privacy and security</b> of dynamical systems. Many of the structures we see around us are <b>dynamical systems</b>; from the time series coming from medical monitoring sensors to the energy consumption of our homes. Moreover, abstract concepts can be modeled as dynamical systems: iterative optimization algorithms like the gradient descent algorithm, as well as the processes of training and evaluating neural networks (ideas from control theory can help making decisions and controlling variables of interest in all these areas). Nevertheless, concealing dynamical data brings extra challenges, such as dealing with the dependencies between data at different time steps, maintaining privacy at consecutive iterations and accumulation of noise in the result. 
   </p>
 
   <div class="w3-row w3-padding-8">
@@ -70,7 +70,7 @@ html,body,h1,h2,h3,h4,h5,h6 {margin: 2% auto; background: #f2f2f2; font-family: 
 
 
   <p>
-  My past research involved designing privacy-preserving control and optimization algorithms that make use of homomorphic encryption schemes and secure multi-party computation schemes. The idea behind these concepts is to perform computations directly on encrypted data, such that leakage of private information to the computing entity is minimized. So far, the main applications of my research lie in control theory and machine learning areas, as well as in general networked systems. A rough partition of my research projects consists of: 
+  My past research involved designing privacy-preserving control and optimization algorithms that make use of <b>homomorphic encryption</b> schemes and <b>secure multi-party computation</b> schemes. The idea behind these concepts is to perform computations directly on encrypted data, such that leakage of private information to the computing entity is minimized. A rough partition of my PhD research projects consists of: 
     <ul>
     <li> private cloud-based quadratic optimization from distributed private data;</li>
     <li> linear and nonlinear cloud-based control on encrypted data;</li>
@@ -87,17 +87,19 @@ html,body,h1,h2,h3,h4,h5,h6 {margin: 2% auto; background: #f2f2f2; font-family: 
   Another project related to privacy I worked on exploited the system's model to achieve motion planning with secrecy guarantees.
 	</p>
 
+<!--
   <p>
   Previously, I worked on <b>decentralized estimation</b> for limited communication between sensors, exploiting graph theory and structural systems theory and investigated network sparsification based on controllability and observability measures.
   </p>
+-->
 
   <p>
   My vision for the future involves research in five areas: 
   <ul>
-    <li>continuing to enable trustworthy control and machine learning;</li>
-    <li>using cryptography for secure and reliable distributed algorithms;</li>
+    <li>using cryptography to attain secure and reliable distributed algorithms at no performance cost;</li>
     <li>ensuring accountability and verifiability, under privacy requirements and abuse prevention, for networks of autonomous agents;
     <li>bridging secure multi-party computation tools with differential privacy;</li>
+    <li>continuing to enable trustworthy control and machine learning;</li>    
     <li>developing lightweight privacy solutions for low-power distributed devices, vital to IoT; </li>  
     <li>contributing to a more practical fully homomorphic encryption implementation and deployment. </li>
   </ul>
@@ -110,12 +112,6 @@ html,body,h1,h2,h3,h4,h5,h6 {margin: 2% auto; background: #f2f2f2; font-family: 
   <h3 class="w3-text-black"><a id="Publications">Publications</a></h3>
 
   <a href="https://scholar.google.com/citations?user=p5GB_E4AAAAJ&hl=en" target="_blank">[Google Scholar]</a>
-
-  <h4 class="w3-text-black"><a id="Preprints">Preprints</a></h4>
-
-  <ul>
-  <li> <b>Alexandru A. B.</b>, Tsiamis A. and Pappas G. J., <i>Data-driven Control on Encrypted Data</i>, 2020. <a href="https://arxiv.org/abs/2008.12671" target="_blank">arXiv</a></li>     
-  </ul>
 
   <h4 class="w3-text-black"><a id="Journals">Journals and book chapters</a></h4>
   <ul>
@@ -143,11 +139,16 @@ for Decentralized Estimation</i> in Proceedings of the 56th Conference on Decisi
   <li> <b>Alexandru A.B.</b>, Lup, S., Dita B., 2013, <i>GDS2M: Preprocessing Tool for MEMS Devices</i> in Proceedings of the 8th International Symposium on Advanced Topics in Electrical Engineering (ATEE), pp. 1-4, IEEE. <b>Third place in best student paper competition</b>. <a href="./Docs/ATEE2013.pdf" target="_blank">paper</a></li>
   </ul>
 
+  <h4 class="w3-text-black"><a id="Preprints">Preprints</a></h4>
+
+  <ul>
+  <li> <b>Alexandru A. B.</b>, Tsiamis A. and Pappas G. J., <i>Data-driven Control on Encrypted Data</i>, 2020. <a href="https://arxiv.org/abs/2008.12671" target="_blank">arXiv</a></li>     
+  </ul>  
+
 
   <h3 class="w3-text-black">Posters</h3>
 
   <ul>
-  <li> Data-driven control over encrypted data, Jul. 2021, Stanford Autonomous Systems Laboratory.    
   <li> Privacy for Cyber-Physical Systems, Oct. 2019, EECS Rising Stars at UIUC.
   <li> Private Cooperative Control, Oct. 2019, Grace Hopper Celebration.
   <li> Privacy for Cyber-Physical Systems, Mar. 2019, ECEDHA Annual Conference, iREDEFINE Workshop.
